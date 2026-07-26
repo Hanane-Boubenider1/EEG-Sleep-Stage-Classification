@@ -1,16 +1,10 @@
-# EEG Sleep Stage Classification
+# # EEG Sleep Stage Classification using Time Series Analysis
 
 ## Overview
 
-This project focuses on EEG-based sleep stage classification using Time Series Analysis and Machine Learning techniques. The objective is to classify EEG recordings into five sleep stages:
+This project presents an intelligent sleep stage classification system based on electroencephalogram (EEG) signals. Using time series analysis and machine learning techniques, the system classifies EEG recordings into different sleep stages through signal preprocessing, feature engineering, dimensionality reduction, and supervised learning models.
 
-* Wake
-* E1
-* E2
-* E3
-* REM
-
-The project applies preprocessing, feature extraction, dimensionality reduction, and multiple machine learning models to build an accurate sleep stage classification system.
+The project demonstrates a complete machine learning workflow for biomedical time-series data, from exploratory analysis to model evaluation.
 
 ---
 
@@ -24,15 +18,20 @@ The project applies preprocessing, feature extraction, dimensionality reduction,
 
 ---
 
-# Dataset
+## Dataset
 
-The dataset contains EEG recordings divided into:
+The dataset consists of EEG recordings collected for sleep stage analysis.
 
-* 5000 labeled training samples
-* 1000 unlabeled test samples
+- **Training set:** 5000 labeled EEG samples
+- **Test set:** 1000 unlabeled EEG samples
+- **Target classes:**
+  - Wake
+  - E1
+  - E2
+  - E3
+  - REM
 
-Each sample represents an EEG signal associated with a specific sleep stage.
-
+Each sample represents an EEG signal corresponding to one sleep stage.
 ---
 
 # Methodology
